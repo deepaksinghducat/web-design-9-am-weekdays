@@ -1,13 +1,391 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-/* p {
-    color: red;
-    font-weight: bolder;
+/* syntax */
+/* selector {
+    key:value ;
 } */
 
-.italic {
-    color: red;
-}
+/* selector */
+
+/* 
+    tag
+    id
+    class
+*/
+
+
+/* how to use css */
+
+/* 
+    inline
+    internal 
+    external
+*/
+
+/* comments */
+/* 
+
+    asfsafaf
+
+*/
+
+/* 
+   color 
+   color by name
+   hexadeciaml
+   rgb
+   hsl
+*/
+
+/* div { */
+    /* color: red; */
+    /* color: #00f; */
+    /* color: rgb(0, 0, 255); */
+    /* color: hsl(240, 100%, 50%); */
+/* } */
+
+
+/* 
+    background
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    background
+    opacity
+
+    background: #ffffff url("img_tree.png") no-repeat right top; shorthand
+ */
+
+ div {
+    /* height: 100px;
+    width: 100x; */
+
+    /* background-color: red ; */
+    background-image: url('bannerimage.png');
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:initial;
+    background-size: cover;
+    opacity: 0.5;
+
+    border: 5px solid #000;
+ }
+
+
+
+ /* 
+    border
+    border-style
+    border-width
+    border-color
+    border: 5px solid red;
+    border-radius
+ */
+
+ /* 
+    margin
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+ */
+
+ /* 
+    padding
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+ */
+
+ /* 
+    height & width
+    auto - This is default. The browser calculates the height and width
+    length - Defines the height/width in px, cm, etc.
+    % - Defines the height/width in percent of the containing block
+    initial - Sets the height/width to its default value
+    inherit - The height/width will be inherited from its parent value
+ */
+
+ /* 
+    Outline
+    outline-style
+    outline-color
+    outline-width
+    outline-offset
+    outline
+ */
+
+ /* 
+    Text
+    color
+    background-color
+    text-align
+    text-decoration
+    text-transform
+    text-indent
+    letter-spacing
+    line-height
+    word-spacing
+    white-space
+    text-shadow
+ */
+
+ /* 
+    Font
+    font-family
+    font-style
+    font-size
+    font-family: Verdana, sans-serif;
+    font: 20px Arial, sans-serif;
+ */
+
+ /* 
+    icons 
+    bootstrap 
+    material 
+    fontawesome 
+ */
+
+ /* 
+    Link
+    :visited
+    :hover
+    :hover
+    :active
+
+    text-decoration
+ */
+
+ /* 
+    list
+    list-style-type
+    list-style-image
+    list-style-position
+ */
+
+ /* 
+    table
+    border
+    border-collapse
+    width
+    height
+    text-align
+    overflow
+ */
+
+ /* 
+    display
+    block
+    inline
+    inline-block
+    none
+    visibility
+ */
+
+ /* 
+    max width
+ */
+
+ /* 
+    position
+    static
+    relative
+    fixed
+    absolute
+    static
+    sticky
+    z-index
+ */
+
+ /* 
+    overflow
+    visible
+    hidden
+    scroll
+    auto
+ */
+
+ /* 
+    float
+    left
+    right
+    bottom
+    top
+ */
+
+ /* 
+    clear
+    left
+    right
+    bottom
+    top
+ */
+
+ /* 
+    Descendant Selector
+    div p {}
+
+    Child Selector (>)
+    div > p {}
+
+    Adjacent Sibling Selector (+)
+    div + p {}
+
+    General Sibling Selector (~)
+    div ~ p {}
+ */
+
+ /* 
+    Pseudo-classes
+
+    selector:pseudo-class {
+        property: value;
+    }
+
+    :first-child
+    :visited
+    :hover
+    :hover
+    :active
+
+    ::pseudo-element
+    ::first-line
+    ::first-letter
+    ::after
+    ::marker
+    ::selection
+    The following CSS properties can be applied to ::selection: color, background, cursor, and outline.
+ */
+
+ /* 
+    opacity
+ */
+
+ /* 
+    Input
+
+    input[type=text] - will only select text fields
+    input[type=password] - will only select password fields
+    input[type=number] - will only select number fields
+ */
+
+ /* 
+    body {
+        counter-reset: section;
+    }
+
+    h2::before {
+        counter-increment: section;
+        content: "Section " counter(section) ": ";
+    }
+ */
+
+ /* 
+    CSS Units
+    px
+    em
+    rem
+    vh
+    vw
+ */
+
+
+ /* 
+   CSS Rounded Corners
+
+   border-radius
+   left
+   right
+   top
+   bottom 
+ */
+
+ /* 
+   CSS Border Images
+    
+   border-image
+ */
+
+ /* 
+   CSS Multiple Backgrounds
+    
+   background-size
+   background-origin
+   background-clip
+
+   background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+ */
+
+ /* 
+   CSS Shadow Effects
+   
+   text-shadow
+   box-shadow
+ */
+
+ /* 
+   CSS Text Effects
+
+   text-overflow
+   word-wrap
+   word-break
+   writing-mode
+ */
+
+ /* 
+   CSS 2D Transforms 
+
+   translate()
+   rotate()
+   scaleX()
+   scaleY()
+   scale()
+   skewX()
+   skewY()
+   skew()
+   matrix()
+*/
+
+/* 
+   CSS 3D Transforms
+
+   rotateX()
+   rotateY()
+   rotateZ()
+*/
+
+/* 
+   CSS Transitions
+
+   transition
+   transition-delay
+   transition-duration
+   transition-property
+   transition-timing-function
+
+   transition-timing-function
+   ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+   linear - specifies a transition effect with the same speed from start to end
+   ease-in - specifies a transition effect with a slow start
+   ease-out - specifies a transition effect with a slow end
+   ease-in-out - specifies a transition effect with a slow start and end
+   cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+*/
+
+/* 
+   CSS Animations
+
+   @keyframes
+   animation-name
+   animation-duration
+   animation-delay
+   animation-iteration-count
+   animation-direction
+   animation-timing-function
+   animation-fill-mode
+   animation
+
+*/
