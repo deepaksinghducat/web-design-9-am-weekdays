@@ -9,6 +9,10 @@
    /* margin: 0; */
 }
 
+div {
+   background-color: red;
+}
+
 /* 
     tag
     id
@@ -187,22 +191,22 @@
     text-shadow
  */
 
- /* div {
+ div {
    /* color: red;
    background-color: green;
    text-align: calc(100% - 25px);
    line-height: 10px; */
- /* } */ 
+ }
 
- /* a {
-   text-decoration: none;
+ a {
+   /* text-decoration: none;
    text-transform: capitalize;
    /* text-indent: 10px; */
   /** letter-spacing: 5px;
    word-spacing: 5px;
    text-shadow: 10px 20px;
-  
- } */
+   */
+ }
 
  /* 
     Font
@@ -213,17 +217,17 @@
     font: 20px Arial, sans-serif;
  */
 
- /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
- /* div { */
+ div {
    /* font-family: 'Poppins';
    font-weight: bold;
    font-style: italic;
    font-size: 42px;
  } */
 
- /* font: 20px 'Poppins', Arial, sans-serif; */
-/* } */
+ font: 20px 'Poppins', Arial, sans-serif;
+}
 
  /* 
     icons 
@@ -242,7 +246,7 @@
     text-decoration
  */
 
- /* a {
+ a {
    text-decoration: none;
  }
 
@@ -254,24 +258,12 @@
    color:green;
  }
 
- div {
-   background-color: green !important;
- } */
-
  /* 
     list
     list-style-type
     list-style-image
     list-style-position
  */
-
-/* 
-  ol {
-   list-style-type: none;
-   list-style-image: url('./image2.jpg');
-   list-style-position: inside;
-  } */
-
 
  /* 
     table
@@ -283,19 +275,6 @@
     overflow
  */
 
- /* table {
-   width: 100%;
-   /* border: 1px solid red; */
-   /* background-color: silver;
-   border-collapse: collapse;
- }
-
- table thead tr th,  table tbody tr td {
-   text-align: center;
-   border-bottom: 1px dotted green;
-   width: 100px;
- }  */ 
-
  /* 
     display
     block
@@ -304,20 +283,6 @@
     none
     visibility
  */
-
- /* #outerDiv {
-   margin: 0px auto;
- } */
-
- /* .innerDiv {
-   display: inline-block;
-   height: 200px;
-   width: 200px;
-   background-color: red;
-   margin: 10px;
- } */
-
- 
 
  /* 
     max width
