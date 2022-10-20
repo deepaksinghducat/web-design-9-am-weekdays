@@ -333,6 +333,41 @@
     sticky
     z-index
  */
+/* 
+ #parentDiv {
+   height: 1000px;
+   width: 300px;
+   background-color: red;
+   position: relative;
+ }
+
+ #innerDiv { 
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   position: absolute;
+   top: 30%;
+   left : 30% ;
+   text-align: center;
+ }
+
+ nav {
+   position: sticky;
+   top: 0;
+   background-color: aqua;
+   color: black;
+   z-index: 1;
+ }
+
+ #fixedDiv {
+   position: fixed;
+   margin-top: 10px;
+   height: 200px;
+   width: 200px;
+   top: 80%;
+   right: 10%;
+   background-color: blue;
+ } */
 
  /* 
     overflow
@@ -342,6 +377,16 @@
     auto
  */
 
+ div {
+   /* height: 100px;
+   width: 100px;
+   background-color: red; */
+   /* overflow-x: auto; */
+   /* overflow:scroll;
+   overflow-x: hidden; */
+   /* overflow-y: hidden; */
+ }
+
  /* 
     float
     left
@@ -349,6 +394,21 @@
     bottom
     top
  */
+
+ /* div {
+   background-color:red;
+   height: 100px;
+   width: 100px;
+   margin: 10px;
+   float: right;
+ }
+
+ section { 
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   clear: left;
+ } */
 
  /* 
     clear
@@ -371,6 +431,11 @@
     General Sibling Selector (~)
     div ~ p {}
  */
+
+  #container > p {
+   color: aqua;
+   background-color: #000;
+  }
 
  /* 
     Pseudo-classes
